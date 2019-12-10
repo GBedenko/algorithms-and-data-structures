@@ -32,11 +32,14 @@ def count_zeroes(factorial_answer):
         factorial_answer = factorial_answer // 10   
 
     return(count)
+
+
+if __name__ == "__main__":
     
-# Take input for factorial function and get the answer
-factorial_answer = factorial(int(input("Enter number:")))
+    # Take input for factorial function and get the answer
+    factorial_answer = factorial(int(input("Enter number:")))
 
-# Use the factorial answer to count the number of zeroes using the count_zeroes() function
-zeroes = count_zeroes(factorial_answer)
+    # Use the factorial answer to count the number of zeroes using the count_zeroes() function
+    zeroes = count_zeroes(factorial_answer)
 
-print("The number of zeroes at the end of this factorial is " + str(zeroes))
+    print("The number of zeroes at the end of this factorial is " + str(zeroes))
