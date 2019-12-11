@@ -1,5 +1,6 @@
 '''BinaryTree data structure, includes in order and post order traversals and the tree sort algorithm'''
 
+
 class BinaryTreeNode():
     """BinaryTree is represented as BinaryTreeNodes linked together. No object for the entire
        tree, but works as a collection of nodes linked in a tree structure"""

@@ -1,5 +1,6 @@
 '''Count the number of trailing 0s in a factorial number'''
 
+
 def factorial(n):
     '''Function that takes a integer n as input
        Using recursive calls it works out the factorial of the input

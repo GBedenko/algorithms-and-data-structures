@@ -2,6 +2,7 @@
 
 
 class Node(object):
+	"""Node represents one object within a linked list"""
 
 	def __init__(self, value):
 		'''Every node has a value, pointer to the next node, pointer to the previous node'''
@@ -11,6 +12,7 @@ class Node(object):
 
 
 class List(object):
+	"""Linked list is stored as a the head and tail of the list to locate each node"""
 
 
 	def __init__(self):

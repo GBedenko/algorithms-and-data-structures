@@ -1,6 +1,6 @@
 '''Graph of vertices data structure, with breadth-first and depth-first traversal algorithms'''
 
-from Queue import Queue
+from queue import Queue
 
 # TODO: Use custom queue and stack objects in seperate files
 # TODO: Separate folder: weighted_graph
@@ -8,6 +8,7 @@ from Queue import Queue
 
 class Vertex:
 	"""Represents a Vertex within a Graph"""
+
 
 	def __init__(self, value):
 		'''Every vertex has a value and a list of its neighbour vertices'''
